@@ -5,11 +5,25 @@
             "Merffff\\Proj\\": "src/"
         }
     },
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+
+    "autoload-dev": {
+        "psr-4": {
+            "Merffff\\Proj\\Tests\\": "tests/"
+        }
+    },
+
     "authors": [
         {
             "name": "Irina Baldanova",
             "email": "idb6@tpu.ru"
         }
-    ],
-    "require": {}
+    ]
+
 }
